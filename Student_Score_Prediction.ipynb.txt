@@ -1,0 +1,2882 @@
+{
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0xwdgTsemNel",
+        "outputId": "ef258134-16e5-4935-99c2-7106ca6758d0"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Hello, Nourhan! \n"
+          ]
+        }
+      ],
+      "source": [
+        "غprint(\"Hello, Nourhan! \")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "n9WtrbBlogPX",
+        "outputId": "cde8c78e-28a6-4d43-d5f3-75ea9162c1ec"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "15\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(5+10)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vzFAZ69lrH-Z",
+        "outputId": "a867f94b-bfad-4636-96f5-0f8d3f1059f0"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "I am Learning Python! \n"
+          ]
+        }
+      ],
+      "source": [
+        "#هذا الكود يطبع جملة ترحيبية\n",
+        "print(\"I am Learning Python! \")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "r2g6feNnsO4V",
+        "outputId": "51e8ee73-ab28-42b5-c999-0ae244f991a6"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Iam Doing Great! \n"
+          ]
+        }
+      ],
+      "source": [
+        "#This Is My Second Comment In Python\n",
+        "print(\"Iam Doing Great! \")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UG_YeUXGvxi9",
+        "outputId": "29101b6a-cebc-4d3a-9ab3-839d27e15c55"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "<class 'int'>\n",
+            "<class 'float'>\n",
+            "<class 'str'>\n",
+            "<class 'list'>\n"
+          ]
+        }
+      ],
+      "source": [
+        "#معرفة نوع الرقم الصحيح\n",
+        "print(type(10))\n",
+        "#معرفة نوع الرقم العشرى\n",
+        "print(type(10.5))\n",
+        "#معرفة نوع النص\n",
+        "print (type(\"Norhan\"))\n",
+        "#معرفة نوع القائمة (List)\n",
+        "print (type([1, 2, 3]))"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "3YBLO_R9BoYs"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IKcfr5xVzgae",
+        "outputId": "e0456e47-ccbe-40b0-b99e-2a6029ba0d79"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Nourhan\n",
+            "30\n"
+          ]
+        }
+      ],
+      "source": [
+        "#انشاء متغير يحمل اسمك وباعته\n",
+        "my_name =\"Nourhan\"\n",
+        "print(my_name)\n",
+        "#انشاء متغيرات للأرقام طباعتها\n",
+        "age =30\n",
+        "print (age)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "r-BEUE5f91Eq",
+        "outputId": "05cd8dfb-7118-4ec3-9084-8ea323fb08f8"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "10\n",
+            "20\n",
+            "30\n",
+            "100\n",
+            "100\n",
+            "100\n"
+          ]
+        }
+      ],
+      "source": [
+        "#تعيين قيم متعددة فى سطر واحد\n",
+        "x, y, z =10, 20, 30\n",
+        "print(x)\n",
+        "print(y)\n",
+        "print(z)\n",
+        "#تعيين نفس القيمة لعدة متغيرات\n",
+        "a = b = c =100\n",
+        "print(a)\n",
+        "print(b)\n",
+        "print(c)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_Oq9yF1gCSVE",
+        "outputId": "3e1e8b02-1ea5-4840-f50d-160be72ebb0e"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Hello\n",
+            "python\n",
+            "Hello\tpython\n",
+            "I Love 'python' and \"Coding\"\n",
+            "This is a Backslash:\\\\\n"
+          ]
+        }
+      ],
+      "source": [
+        "#تجربة السطر الجديد والمسافة\n",
+        "print(\"Hello\\npython\")\n",
+        "print(\"Hello\\tpython\")\n",
+        "#تجربة علامات التنصيص والشرطة المائلة\n",
+        "print(\"I Love 'python' and \\\"Coding\\\"\")\n",
+        "print(\"This is a Backslash:\\\\\\\\\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "C5lIeBj1HaEh",
+        "outputId": "ec1e0b96-1363-4aef-e650-f283ae49e3be"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Nourhan\n",
+            "Developer\n",
+            "4\n",
+            "10\n",
+            "10\n",
+            "10\n"
+          ]
+        }
+      ],
+      "source": [
+        "#إسناد قيم مختلفة فى سطر واحد\n",
+        "First_name,  Job,  hours = \"Nourhan\" , \"Developer\" , 4\n",
+        "print (First_name)\n",
+        "print (Job)\n",
+        "print (hours)\n",
+        "\n",
+        "Score1 = Score2 = Score3 = 10\n",
+        "print (Score1)\n",
+        "print (Score2)\n",
+        "print (Score3)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jHcEEy2_Jgsr",
+        "outputId": "cb400aac-67d9-49f8-bcec-2354b5ad0845"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "I Love \"Python\"\n",
+            "C:\\new_folder\n"
+          ]
+        }
+      ],
+      "source": [
+        "print (\"I Love \\\"Python\\\"\")\n",
+        "print (\"C:\\\\new_folder\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "D-lm7OpMM3Fx",
+        "outputId": "d9dfffaa-a446-484c-88b0-f6cefeca55ce"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "My name is Nourhan and I am a Developer\n"
+          ]
+        }
+      ],
+      "source": [
+        "Frist_name =\"Nourhan\"\n",
+        "Job =\"Developer\"\n",
+        "Full_info = \"My name is \" + Frist_name + \" and I am a \" + Job\n",
+        "print (Full_info)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "J78h2xtCPdoQ",
+        "outputId": "922ba055-a99a-4a50-9d5e-1c624a56ca85"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "p\n",
+            "h\n",
+            "n\n"
+          ]
+        }
+      ],
+      "source": [
+        "# تجربة الفهرسة\n",
+        "My_tixt = \"python \"\n",
+        "print(My_tixt[0])\n",
+        "print(My_tixt[3])\n",
+        "print(My_tixt[5])"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-6BSMsr5fq4C",
+        "outputId": "4e881b3f-e399-4e37-ecdb-e29757450896"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Pyt\n",
+            "thon\n"
+          ]
+        }
+      ],
+      "source": [
+        "my_text = \"Python\"\n",
+        "\n",
+        "# نريد أخذ الحروف من المؤشر 0 إلى المؤشر 3 (أي أول 3 حروف)\n",
+        "print(my_text[0:3])  # النتيجة ستكون: Pyt\n",
+        "\n",
+        "# نريد أخذ الحروف من المؤشر 2 إلى نهاية الكلمة\n",
+        "print(my_text[2:])   # النتيجة ستكون: thon"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0UyYE4FRg2RJ",
+        "outputId": "b56504e4-4bb8-47a1-8c18-f69e54e769e5"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "ILv yhn\n"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "my_text = \"I Love Python\"\n",
+        "print(my_text[0:13:2])"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XWx3wi5Kiqow",
+        "outputId": "eb279c7a-b9df-4c02-94c9-69007a1ff4c2"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Ezr\n",
+            "orezlE\n"
+          ]
+        }
+      ],
+      "source": [
+        "msg = \"Elzero\"\n",
+        "\n",
+        "# 1. طباعة الكلمة بترك حرف بين كل حرفين\n",
+        "print(msg[0:6:2])\n",
+        "\n",
+        "# 2. طباعة الكلمة معكوسة بالكامل\n",
+        "print(msg[::-1])"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4WCAdSnWmzFX",
+        "outputId": "6aabad43-1c6d-4f97-d5db-f3348dd78f1a"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Nourhan\n",
+            "Nourhan     \n",
+            "    Nourhan\n"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "name = \"    Nourhan     \"\n",
+        "print(name.strip())\n",
+        "print(name.lstrip())\n",
+        "print(name.rstrip())"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_G3t0Uh2oVzu",
+        "outputId": "69c26d24-b599-4d81-dd00-23e72075445c"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "I Love Python Programming\n",
+            "I love python programming\n",
+            "I LOVE PYTHON PROGRAMMING\n",
+            "i love python programming\n"
+          ]
+        }
+      ],
+      "source": [
+        "text = \"i love python programming\"\n",
+        "print(text.title())\n",
+        "print(text.capitalize())\n",
+        "print(text.upper())\n",
+        "print(text.lower())"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 439
+        },
+        "id": "OSCSfSEI7296",
+        "outputId": "4232d908-d35d-46f1-a180-4d6b427b41cb"
+      },
+      "outputs": [
+        {
+          "ename": "AttributeError",
+          "evalue": "'str' object has no attribute 'indix'",
+          "output_type": "error",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipykernel_1065/13642666.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0mtext\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m\"I Love Python Language\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mtext\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mindix\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"p\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      3\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mtext\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mfind\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"x\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mtext\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mcount\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"a\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mtext\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0msplit\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mAttributeError\u001b[0m: 'str' object has no attribute 'indix'"
+          ]
+        }
+      ],
+      "source": [
+        "text = \"I Love Python Language\"\n",
+        "print(text.indix(\"p\"))\n",
+        "print(text.find(\"x\"))\n",
+        "print(text.count(\"a\"))\n",
+        "print(text.split())"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3Lj_SXsksS8I",
+        "outputId": "84343644-7a00-4000-c74c-30772225dec4"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "True\n",
+            "True\n",
+            "True\n",
+            "False\n"
+          ]
+        }
+      ],
+      "source": [
+        "##istitle & title\n",
+        "name = \"Nourhan Salah\"\n",
+        "print(name. istitle())\n",
+        "# isspace\n",
+        "space = \"    \"\n",
+        "print(space. isspace())\n",
+        "##starstwith & endswith\n",
+        "text = \"Python Language\"\n",
+        "print(text.startswith(\"P\"))\n",
+        "print(text.endswith(\"c\"))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FnBgG2p0zzlG",
+        "outputId": "b42e2f43-0f37-42a1-d06c-263b25eb8c7e"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "True\n",
+            "True\n",
+            "True\n",
+            "True\n"
+          ]
+        }
+      ],
+      "source": [
+        "# فحص الحروف والارقا\n",
+        "text1 = \"Nourhan\"\n",
+        "text2 = \"12345\"\n",
+        "text3 = \"Nourhan12345\"\n",
+        "print(text1.isalpha())\n",
+        "print(text2.isdigit())\n",
+        "print(text3.isalnum())\n",
+        "#فحص صلاحية اسم المتغير\n",
+        "var_name = \"user_name\"\n",
+        "print(var_name.isidentifier())"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ba_P8Qu7RBpg",
+        "outputId": "cfe86521-f354-48fc-a6ad-d8500338e94f"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Hello Nourhan, your age is 30\n",
+            "your rank is 10.55\n"
+          ]
+        }
+      ],
+      "source": [
+        "name = \"Nourhan\"\n",
+        "age = 30\n",
+        "rank = 10.555\n",
+        "print(\"Hello %s, your age is %d\" % (name, age))\n",
+        "print(\"your rank is %.2f\" % rank)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rCg0lxTKZkk5",
+        "outputId": "896ef642-fb80-491d-8aae-69cc4b74befc"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "itemsbought:4\n",
+            "Remaining money:10.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "item_price = 47.5\n",
+        "budget = 200\n",
+        "items_bought = int(budget // item_price)\n",
+        "print(f\"itemsbought:{items_bought}\")\n",
+        "remainder = budget % item_price\n",
+        "print(f\"Remaining money:{remainder}\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zXiXcnnd6CdW",
+        "outputId": "ae7e68e1-f3ff-431d-d245-dcbf0976b46c"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "initial score: 50\n",
+            "after adding 10: 60\n",
+            "after subtracting 5: 55\n",
+            "after multiplying 2: 110\n"
+          ]
+        }
+      ],
+      "source": [
+        "score = 50\n",
+        "print(f\"initial score: {score}\")\n",
+        "score += 10\n",
+        "print (f\"after adding 10: {score}\")\n",
+        "score -= 5\n",
+        "print(f\"after subtracting 5: {score}\")\n",
+        "score *= 2\n",
+        "print(f\"after multiplying 2: {score}\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "c9qKuFxmmDjJ",
+        "outputId": "74763b9c-0bf3-47c7-d8db-3215c4fd0de5"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "True\n",
+            "False\n",
+            "True\n",
+            "False\n"
+          ]
+        }
+      ],
+      "source": [
+        "x = 10\n",
+        "y = 20\n",
+        "print(x < y)\n",
+        "print(x == y)\n",
+        "print(x != y)\n",
+        "print(y <=15)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Z_eczmr9oLYN",
+        "outputId": "809ebfa2-852f-4028-8ad9-9386d4bbb058"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "مبروك، يمكنك شراء هذه القطعة\n"
+          ]
+        }
+      ],
+      "source": [
+        "budget = 200\n",
+        "item_price = 47.5\n",
+        "if budget >= item_price:\n",
+        "    print(\"مبروك، يمكنك شراء هذه القطعة\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "S_unregfQnuh",
+        "outputId": "0c69cddc-dc79-4a7b-c988-d4c61ddbfb84"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "مبروك يمكنك شراء هذه القطعة\n"
+          ]
+        }
+      ],
+      "source": [
+        "budget = 30\n",
+        "item_price = 47.5\n",
+        "if budget <= item_price:\n",
+        "  print(\"مبروك يمكنك شراء هذه القطعة\")\n",
+        "else:\n",
+        "  print(\"عفوا، لا يمكنك شراء هذه القطعة\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "R8f0F_tOR4nj",
+        "outputId": "f61d4beb-01ec-4982-875c-f3f38f210637"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "للاسف لم تتجاوز الاختبار ،حاول مرة أخرى \n"
+          ]
+        }
+      ],
+      "source": [
+        "score = 40\n",
+        "if score >= 50:\n",
+        "   print(\"مبروك انت ناجح\")\n",
+        "else:\n",
+        "   print(\"للاسف لم تتجاوز الاختبار ،حاول مرة أخرى \")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tM_IgmtYWuYQ",
+        "outputId": "cc8b7b22-7936-42b5-8c16-a682c5844a74"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            " مبروك ،امتياز\n"
+          ]
+        }
+      ],
+      "source": [
+        "score = 85\n",
+        "if score <= 85:\n",
+        "    print (\" مبروك ،امتياز\")\n",
+        "elif score <= 75:\n",
+        "   print(\"مبروك، جيد جدا\")\n",
+        "elif score <= 65:\n",
+        "   print (\" مبروك، جيد\")\n",
+        "else :\n",
+        "   print(\"للاسف، انت راسب\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZimL47o-dwPt",
+        "outputId": "1b6b303d-4923-42c6-8edf-1e3342e16854"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "انت مؤهل لهذه الوظيفة\n"
+          ]
+        }
+      ],
+      "source": [
+        "age = 30\n",
+        "has_experience = True\n",
+        "if age >= 21 and has_experience == True:\n",
+        "    print(\"انت مؤهل لهذه الوظيفة\")\n",
+        "else:\n",
+        "    print(\"انت غير مؤهل لهذه الوظيفة\")\n",
+        "    is_student = False\n",
+        "    has_discount_coupon = True\n",
+        "    if is_student == True or has_discount_coupon == True:\n",
+        "         print(\"مبروك يمكنك شراء هذه القطعة\")\n",
+        "    else:\n",
+        "         print(\"للأسف لا يمكنك شراء هذه القطعة\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xse_nHsLihr7",
+        "outputId": "f7428850-8e03-460e-f102-d9565d6a0a55"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "للأسف انت غير مقبول\n"
+          ]
+        }
+      ],
+      "source": [
+        "age = 18\n",
+        "has_experience = True\n",
+        "if age >= 21 and has_experience == True:\n",
+        "    print(\"مبروك انت مقبول فى هذه الوظيف\")\n",
+        "else:\n",
+        "     print(\"للأسف انت غير مقبول\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6zMFgDJFlDQ1",
+        "outputId": "315894d4-098a-432a-dbf1-009643f818c9"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "الرقم الحالى: 1\n",
+            "الرقم الحالى: 2\n",
+            "الرقم الحالى: 3\n",
+            "الرقم الحالى: 4\n",
+            "الرقم الحالى: 5\n"
+          ]
+        }
+      ],
+      "source": [
+        "for number in range(1, 6):\n",
+        "    print(\"الرقم الحالى:\", number)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hYqJeEZLnzBN",
+        "outputId": "d1325f9c-6dc1-444e-8299-ebbb1fc75873"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "['برتقال', 'مانجو', 'تفاح']\n",
+            "برتقال\n",
+            "مانجو\n",
+            "['برتقال', 'مانجو', 'تفاح', 'عنب']\n"
+          ]
+        }
+      ],
+      "source": [
+        "#قائمة بها اسماء الفواكه\n",
+        "fruits = [\"برتقال\", \"مانجو\", \"تفاح\"]\n",
+        "# طباعة القائمة بالكامل\n",
+        "print(fruits)\n",
+        "print(fruits[0])\n",
+        "print(fruits[1])\n",
+        "#اضافة عنصر جديد\n",
+        "fruits.append(\"عنب\")\n",
+        "#طباعة القائمة بعد الإضافة\n",
+        "print(fruits)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Q32NlP0MMAnT",
+        "outputId": "7f58e1ed-f8e1-47cf-fe48-5a571ec3662b"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "اهلا بك يا نورهان\n",
+            "مرحبا بك يا Nourhan فى عالم البرمجة\n",
+            "مرحبا بك يا Ahmed فى عالم البرمجة\n"
+          ]
+        }
+      ],
+      "source": [
+        "def say_hello():\n",
+        "  print(\"اهلا بك يا نورهان\")\n",
+        "say_hello()\n",
+        "def greet_user(name):\n",
+        "   print(f\"مرحبا بك يا {name} فى عالم البرمجة\")\n",
+        "greet_user(\"Nourhan\")\n",
+        "greet_user(\"Ahmed\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "6yUf4V14Yqh3"
+      },
+      "outputs": [],
+      "source": [
+        "#تعريف الدالة باستخدام return\n",
+        "def calculate_sum (a, b):\n",
+        "    return a + b"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dClAGM-lsJik",
+        "outputId": "2d00a188-a302-4290-affd-0df966f0bb13"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "    الاسم  الدرجة\n",
+            "0  نورهان      95\n",
+            "1    احمد      88\n",
+            "2    محمد      92\n",
+            "    الاسم  الدرجة  التقدير\n",
+            "0  نورهان      95    ممتاز\n",
+            "1    احمد      88  جيد جدا\n",
+            "2    محمد      92      جيد\n",
+            "---اعرضلى اول صفين من الجدول---\n",
+            "    الاسم  الدرجة  التقدير\n",
+            "0  نورهان      95    ممتاز\n",
+            "1    احمد      88  جيد جدا\n",
+            "---متوسط الدرجات---\n",
+            "91.66666666666667\n"
+          ]
+        }
+      ],
+      "source": [
+        "import pandas as pd\n",
+        "data = {\n",
+        "     'الاسم':['نورهان', 'احمد', 'محمد'],\n",
+        "     'الدرجة':[95, 88, 92]}\n",
+        "df= pd.DataFrame(data)\n",
+        "print(df)\n",
+        "df['التقدير'] = ['ممتاز', 'جيد جدا', 'جيد']\n",
+        "print(df)\n",
+        "print(\"---اعرضلى اول صفين من الجدول---\")\n",
+        "print(df.head(2))\n",
+        "average_score = df['الدرجة'].mean()\n",
+        "print(\"---متوسط الدرجات---\")\n",
+        "print(average_score)\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "background_save": true,
+          "base_uri": "https://localhost:8080/",
+          "height": 196
+        },
+        "id": "r0Gir3BnvUuh",
+        "outputId": "a9bb5ed4-285d-4530-d802-4ee34ec6d5bb"
+      },
+      "outputs": [
+        {
+          "ename": "SyntaxError",
+          "evalue": "invalid syntax. Perhaps you forgot a comma? (1082899501.py, line 3)",
+          "output_type": "error",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_7281/1082899501.py\"\u001b[0;36m, line \u001b[0;32m3\u001b[0m\n\u001b[0;31m    الاسم: ['نورهان','محمد', 'احمد']\u001b[0m\n\u001b[0m           ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax. Perhaps you forgot a comma?\n"
+          ]
+        }
+      ],
+      "source": [
+        "import pandas as pd\n",
+        "data = {\n",
+        "الاسم: ['نورهان','محمد', 'احمد']\n",
+        "الدرجه: [90, 85, 70]}\n",
+        "df = pd.DataFrame(data)\n",
+        "high_score = df[df['الدرجة'] > 90]]\n",
+        "print(\"---الطلاب الحاصلين على اكثر من90---\")\n",
+        "print(high_score"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "import numpy as np\n",
+        "\n",
+        "# 1. بيانات فيها قيمة ناقصة (NaN)\n",
+        "data = {\n",
+        "    'الاسم': ['أحمد', 'محمد', 'نورهان', 'سارة'],\n",
+        "    'الدرجة': [90, 85, 70, np.nan]  # np.nan معناها قيمة مفقودة أو فاضية\n",
+        "}\n",
+        "\n",
+        "df = pd.DataFrame(data)\n",
+        "\n",
+        "print(\"--- الجدول الأصلي وفيه قيم ناقصة ---\")\n",
+        "print(df)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "04jpN87He3VQ",
+        "outputId": "baf60a08-1e13-437a-f295-7f560a2d4d9d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول الأصلي وفيه قيم ناقصة ---\n",
+            "    الاسم  الدرجة\n",
+            "0    أحمد    90.0\n",
+            "1    محمد    85.0\n",
+            "2  نورهان    70.0\n",
+            "3    سارة     NaN\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# حذف أي صف يحتوي على قيمة مفقودة (NaN)\n",
+        "df_clean = df.dropna()\n",
+        "\n",
+        "print(\"--- الجدول بعد حذف القيم الناقصة ---\")\n",
+        "print(df_clean)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "A5p3zv4Bge5E",
+        "outputId": "0f301bb3-92d5-4522-9e51-0bd0d91870d6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول بعد حذف القيم الناقصة ---\n",
+            "    الاسم  الدرجة\n",
+            "0    أحمد    90.0\n",
+            "1    محمد    85.0\n",
+            "2  نورهان    70.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# استبدال كل قيمة مفقودة (NaN) بالرقم 0 مثلاً\n",
+        "df_filled = df.fillna(0)\n",
+        "\n",
+        "print(\"--- الجدول بعد تعويض القيم الناقصة بـ 0 ---\")\n",
+        "print(df_filled)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TgJaNq-ThqEa",
+        "outputId": "bdb179b8-b0b9-4888-e399-ec447f2d7bb2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول بعد تعويض القيم الناقصة بـ 0 ---\n",
+            "    الاسم  الدرجة\n",
+            "0    أحمد    90.0\n",
+            "1    محمد    85.0\n",
+            "2  نورهان    70.0\n",
+            "3    سارة     0.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "import pandas as pd\n",
+        "\n",
+        "# 1. إنشاء جدول البيانات\n",
+        "data = {\n",
+        "    'الاسم': ['أحمد', 'محمد', 'نورهان', 'سارة'],\n",
+        "    'الدرجة': [90, 85, 95, 78]\n",
+        "}\n",
+        "\n",
+        "df = pd.DataFrame(data)\n",
+        "\n",
+        "# 2. ترتيب الجدول تصاعدياً حسب عمود \"الدرجة\" (من الأصغر للأكبر)\n",
+        "df_sorted = df.sort_values(by='الدرجة')\n",
+        "\n",
+        "print(\"--- الجدول بعد الترتيب التصاعدي ---\")\n",
+        "print(df_sorted)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VG_VBO_WjowZ",
+        "outputId": "cd2684d6-5c38-435d-c293-1ea685b2e80b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول بعد الترتيب التصاعدي ---\n",
+            "    الاسم  الدرجة\n",
+            "3    سارة      78\n",
+            "1    محمد      85\n",
+            "0    أحمد      90\n",
+            "2  نورهان      95\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# ترتيب الجدول تنازلياً حسب عمود \"الدرجة\" (من الأكبر للأقل)\n",
+        "df_descending = df.sort_values(by='الدرجة', ascending=False)\n",
+        "\n",
+        "print(\"--- الجدول بعد الترتيب التنازلي (من الأكبر للأقل) ---\")\n",
+        "print(df_descending)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wvZBf19ho2Rg",
+        "outputId": "9a09f767-ae0c-46cc-be3e-13d08890a79a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول بعد الترتيب التنازلي (من الأكبر للأقل) ---\n",
+            "    الاسم  الدرجة\n",
+            "2  نورهان      95\n",
+            "0    أحمد      90\n",
+            "1    محمد      85\n",
+            "3    سارة      78\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# عرض أعلى 3 طلاب فقط من الجدول المُرتّب تنازلياً\n",
+        "top_students = df_descending.head(3)\n",
+        "\n",
+        "print(\"--- أعلى 3 طلاب في الدرجات ---\")\n",
+        "print(top_students)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fslM1RaSpsjR",
+        "outputId": "62ac0f87-1ccb-49fd-f576-8057fe12103f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- أعلى 3 طلاب في الدرجات ---\n",
+            "    الاسم  الدرجة\n",
+            "2  نورهان      95\n",
+            "0    أحمد      90\n",
+            "1    محمد      85\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# عرض أقل 2 طلاب من الجدول المُرتّب تنازلياً\n",
+        "bottom_students = df_descending.tail(2)\n",
+        "\n",
+        "print(\"--- أقل الطلاب في الدرجات ---\")\n",
+        "print(bottom_students)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qy-Ck9sRqOzu",
+        "outputId": "dcd2f60c-cf4b-4d7b-b246-c2afbba62da9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- أقل الطلاب في الدرجات ---\n",
+            "  الاسم  الدرجة\n",
+            "1  محمد      85\n",
+            "3  سارة      78\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "# 1. إنشاء جدول بيانات يحتوي على منتجات وأقسام ومبيعات\n",
+        "data = {\n",
+        "    'القسم': ['إلكترونيات', 'ملابس', 'إلكترونيات', 'ملابس', 'إلكترونيات'],\n",
+        "    'المبيعات': [1200, 500, 800, 300, 1500]\n",
+        "}\n",
+        "\n",
+        "df = pd.DataFrame(data)\n",
+        "\n",
+        "# 2. تجميع المبيعات حسب القسم وحساب الإجمالي (Sum)\n",
+        "df_grouped = df.groupby('القسم')['المبيعات'].sum().reset_index()\n",
+        "\n",
+        "print(\"--- إجمالي المبيعات لكل قسم ---\")\n",
+        "print(df_grouped)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "W_EJxHAnTy3B",
+        "outputId": "75972b9a-5205-4bfe-eee2-9ed98b1ba4dc"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- إجمالي المبيعات لكل قسم ---\n",
+            "        القسم  المبيعات\n",
+            "0  إلكترونيات      3500\n",
+            "1       ملابس       800\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "# حساب متوسط المبيعات لكل قسم باستخدام mean()\n",
+        "df_mean = df.groupby('القسم')['المبيعات'].mean().reset_index()\n",
+        "\n",
+        "print(\"--- متوسط المبيعات لكل قسم ---\")\n",
+        "print(df_mean)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "z602V1lpZOjv",
+        "outputId": "1bc9ce87-c28b-4440-c94b-5041d4e65742"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- متوسط المبيعات لكل قسم ---\n",
+            "        القسم     المبيعات\n",
+            "0  إلكترونيات  1166.666667\n",
+            "1       ملابس   400.000000\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "# 1. إنشاء الجدول الأول (الأساسي): يحتوي على الأقسام والمديرين\n",
+        "data1 = {\n",
+        "    'القسم': ['إلكترونيات', 'ملابس', 'أثاث'],\n",
+        "    'المدير': ['أحمد', 'سارة', 'محمود']\n",
+        "}\n",
+        "df1 = pd.DataFrame(data1)\n",
+        "\n",
+        "# 2. إنشاء الجدول الثاني: يحتوي على الأقسام والمبيعات\n",
+        "data2 = {\n",
+        "    'القسم': ['إلكترونيات', 'ملابس', 'أثاث'],\n",
+        "    'المبيعات': [5000, 3200, 4100]\n",
+        "}\n",
+        "df2 = pd.DataFrame(data2)\n",
+        "\n",
+        "# 3. دمج الجدولين معاً بناءً على العمود المشترك ('القسم')\n",
+        "df_merged = pd.merge(df1, df2, on='القسم')\n",
+        "\n",
+        "print(\"--- الجدول بعد الدمج الشامل ---\")\n",
+        "print(df_merged)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2UWz5uD-tdsr",
+        "outputId": "85fdfc07-af32-4a10-a661-0f938c7e5353"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول بعد الدمج الشامل ---\n",
+            "        القسم المدير  المبيعات\n",
+            "0  إلكترونيات   أحمد      5000\n",
+            "1       ملابس   سارة      3200\n",
+            "2        أثاث  محمود      4100\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# جدول أول فيه أقسام زيادة\n",
+        "data1 = {\n",
+        "    'القسم': ['إلكترونيات', 'ملابس', 'أثاث', 'تجميل'],\n",
+        "    'المدير': ['أحمد', 'سارة', 'محمود', 'منى']\n",
+        "}\n",
+        "df1 = pd.DataFrame(data1)\n",
+        "\n",
+        "# جدول ثاني فيه أقسام محددة\n",
+        "data2 = {\n",
+        "    'القسم': ['إلكترونيات', 'ملابس', 'أثاث'],\n",
+        "    'المبيعات': [5000, 3200, 4100]\n",
+        "}\n",
+        "df2 = pd.DataFrame(data2)\n",
+        "\n",
+        "# الدمج مع الاحتفاظ بكل أقسام الجدول الأساسي (الأيسر) باستخدام how='left'\n",
+        "df_left = pd.merge(df1, df2, on='القسم', how='left')\n",
+        "\n",
+        "print(\"--- الدمج باستخدام Left Join ---\")\n",
+        "print(df_left)"
+      ],
+      "metadata": {
+        "id": "tWuribzBu4Mu",
+        "outputId": "261ee765-f8f5-45d8-f0d3-80b5e31ec06f",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الدمج باستخدام Left Join ---\n",
+            "        القسم المدير  المبيعات\n",
+            "0  إلكترونيات   أحمد    5000.0\n",
+            "1       ملابس   سارة    3200.0\n",
+            "2        أثاث  محمود    4100.0\n",
+            "3       تجميل    منى       NaN\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "import pandas as pd\n",
+        "\n",
+        "# 1. إنشاء جدول بيانات يوضح مبيعات الشهور لكل منتج\n",
+        "data = {\n",
+        "    'الشهر': ['يناير', 'يناير', 'فبراير', 'فبراير'],\n",
+        "    'المنتج': ['لابتوب', 'موبايل', 'لابتوب', 'موبايل'],\n",
+        "    'المبيعات': [1500, 800, 2000, 1200]\n",
+        "}\n",
+        "df = pd.DataFrame(data)\n",
+        "\n",
+        "# 2. تحويل الجدول باستخدام pivot ليشمل المنتجات كأعمدة والشهور كصفوف\n",
+        "df_pivot = df.pivot(index='الشهر', columns='المنتج', values='المبيعات').reset_index()\n",
+        "\n",
+        "print(\"--- الجدول بعد عملية الـ Pivot ---\")\n",
+        "print(df_pivot)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "E5T3CcLji4dY",
+        "outputId": "a8acba87-eb38-4cb5-a604-6c024b895bbf"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول بعد عملية الـ Pivot ---\n",
+            "المنتج   الشهر  لابتوب  موبايل\n",
+            "0       فبراير    2000    1200\n",
+            "1        يناير    1500     800\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# 1. إنشاء جدول واسع (Wide DataFrame)\n",
+        "data_wide = {\n",
+        "    'Month': ['Jan', 'Feb'],\n",
+        "    'Laptop': [1500, 2000],\n",
+        "    'Phone': [800, 1200]\n",
+        "}\n",
+        "df_wide = pd.DataFrame(data_wide)\n",
+        "\n",
+        "# 2. تحويل الجدول من واسع لطولي باستخدام melt\n",
+        "df_melted = pd.melt(df_wide, id_vars=['Month'], var_name='Product', value_name='Sales')\n",
+        "\n",
+        "print(\"--- الجدول بعد عملية الـ Melt ---\")\n",
+        "print(df_melted)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1OusOz2SmDQO",
+        "outputId": "4afea0ae-6f47-4c29-ac74-47df3bb5ae4e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول بعد عملية الـ Melt ---\n",
+            "  Month Product  Sales\n",
+            "0   Jan  Laptop   1500\n",
+            "1   Feb  Laptop   2000\n",
+            "2   Jan   Phone    800\n",
+            "3   Feb   Phone   1200\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "# 1. إنشاء جدول يحتوي على أسماء فيها مسافات زايدة ومش منظمة\n",
+        "data = {\n",
+        "    'الاسم': ['  أحمد محمد  ', 'سارة علي', '  محمود حسن '],\n",
+        "    'المرتب': [5000, 6000, 5500]\n",
+        "}\n",
+        "df = pd.DataFrame(data)\n",
+        "\n",
+        "print(\"--- الجدول قبل التنظيف ---\")\n",
+        "print(df)\n",
+        "\n",
+        "# 2. إزالة المسافات الزائدة من النصوص باستخدام دالة .str.strip()\n",
+        "df['الاسم_منظم'] = df['الاسم'].str.strip()\n",
+        "\n",
+        "print(\"\\n--- الجدول بعد تنظيف المسافات ---\")\n",
+        "print(df)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BZBqG11UoS0i",
+        "outputId": "baa24b7f-4095-4fc0-fce2-65b05eaf3952"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول قبل التنظيف ---\n",
+            "           الاسم  المرتب\n",
+            "0    أحمد محمد      5000\n",
+            "1       سارة علي    6000\n",
+            "2     محمود حسن     5500\n",
+            "\n",
+            "--- الجدول بعد تنظيف المسافات ---\n",
+            "           الاسم  المرتب الاسم_منظم\n",
+            "0    أحمد محمد      5000  أحمد محمد\n",
+            "1       سارة علي    6000   سارة علي\n",
+            "2     محمود حسن     5500  محمود حسن\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "# 1. إنشاء جدول بأسماء وكلمات بحروف ملخبطة (كابيتال وسمول)\n",
+        "data_text = {\n",
+        "    'Email': ['Ahmed@Gmail.com', 'Sara.Ali@Yahoo.com', 'MAHMOUD@gmail.com']\n",
+        "}\n",
+        "df_text = pd.DataFrame(data_text)\n",
+        "\n",
+        "print(\"--- قبل التعديل ---\")\n",
+        "print(df_text)\n",
+        "\n",
+        "# 2. توحيد الحروف كلها لتكون صغيرة (Lowercase)\n",
+        "df_text['Email_Lower'] = df_text['Email'].str.lower()\n",
+        "\n",
+        "print(\"\\n--- بعد توحيد الإيميلات بحروف صغيرة ---\")\n",
+        "print(df_text)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0C7jKGMKzMB_",
+        "outputId": "255b1c58-d9d2-4449-93c0-f90d2221ba69"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- قبل التعديل ---\n",
+            "                Email\n",
+            "0     Ahmed@Gmail.com\n",
+            "1  Sara.Ali@Yahoo.com\n",
+            "2   MAHMOUD@gmail.com\n",
+            "\n",
+            "--- بعد توحيد الإيميلات بحروف صغيرة ---\n",
+            "                Email         Email_Lower\n",
+            "0     Ahmed@Gmail.com     ahmed@gmail.com\n",
+            "1  Sara.Ali@Yahoo.com  sara.ali@yahoo.com\n",
+            "2   MAHMOUD@gmail.com   mahmoud@gmail.com\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "# 1. إنشاء جدول بيحتوي على تواريخ كنصوص (Strings)\n",
+        "data_dates = {\n",
+        "    'Order_ID': [1, 2, 3],\n",
+        "    'Date_Str': ['2026-10-01', '2026-10-15', '2026-10-27']\n",
+        "}\n",
+        "df_dates = pd.DataFrame(data_dates)\n",
+        "\n",
+        "print(\"--- الجدول قبل تحويل التاريخ ---\")\n",
+        "print(df_dates.dtypes) # بنشوف نوع البيانات\n",
+        "\n",
+        "# 2. تحويل عمود التاريخ من نص لنوع تاريخ حقيقي (Datetime)\n",
+        "df_dates['Date_Real'] = pd.to_datetime(df_dates['Date_Str'])\n",
+        "\n",
+        "print(\"\\n--- بعد تحويل التاريخ لنوع زمني حقيقي ---\")\n",
+        "print(df_dates.dtypes)\n",
+        "print(df_dates)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_MTokmnj1m1i",
+        "outputId": "72cc896c-968b-44c8-dcb0-e2059c984324"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول قبل تحويل التاريخ ---\n",
+            "Order_ID     int64\n",
+            "Date_Str    object\n",
+            "dtype: object\n",
+            "\n",
+            "--- بعد تحويل التاريخ لنوع زمني حقيقي ---\n",
+            "Order_ID              int64\n",
+            "Date_Str             object\n",
+            "Date_Real    datetime64[ns]\n",
+            "dtype: object\n",
+            "   Order_ID    Date_Str  Date_Real\n",
+            "0         1  2026-10-01 2026-10-01\n",
+            "1         2  2026-10-15 2026-10-15\n",
+            "2         3  2026-10-27 2026-10-27\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "# 1. إنشاء جدول بيحتوي على تواريخ حقيقية\n",
+        "data_days = {\n",
+        "    'Order_ID': [1, 2, 3],\n",
+        "    'Order_Date': pd.to_datetime(['2026-10-01', '2026-10-15', '2026-10-27'])\n",
+        "}\n",
+        "df_days = pd.DataFrame(data_days)\n",
+        "\n",
+        "print(\"--- الجدول الأصلي ---\")\n",
+        "print(df_days)\n",
+        "\n",
+        "# 2. استخراج السنة، الشهر، واليوم في أعمدة منفصلة\n",
+        "df_days['Year'] = df_days['Order_Date'].dt.year\n",
+        "df_days['Month'] = df_days['Order_Date'].dt.month\n",
+        "df_days['Day'] = df_days['Order_Date'].dt.day\n",
+        "\n",
+        "print(\"\\n--- الجدول بعد استخراج أجزاء التاريخ ---\")\n",
+        "print(df_days)"
+      ],
+      "metadata": {
+        "id": "uNhLL_YBI-4v",
+        "outputId": "d65f6c5e-f936-4595-80ce-20a878982a3a",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول الأصلي ---\n",
+            "   Order_ID Order_Date\n",
+            "0         1 2026-10-01\n",
+            "1         2 2026-10-15\n",
+            "2         3 2026-10-27\n",
+            "\n",
+            "--- الجدول بعد استخراج أجزاء التاريخ ---\n",
+            "   Order_ID Order_Date  Year  Month  Day\n",
+            "0         1 2026-10-01  2026     10    1\n",
+            "1         2 2026-10-15  2026     10   15\n",
+            "2         3 2026-10-27  2026     10   27\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "# 1. إنشاء جدول بيحتوي على تاريخ الطلب وتاريخ التوصيل\n",
+        "data_diff = {\n",
+        "    'Order_ID': [1, 2, 3],\n",
+        "    'Order_Date': pd.to_datetime(['2026-10-01', '2026-10-05', '2026-10-10']),\n",
+        "    'Delivery_Date': pd.to_datetime(['2026-10-05', '2026-10-12', '2026-10-20'])\n",
+        "}\n",
+        "df_diff = pd.DataFrame(data_diff)\n",
+        "\n",
+        "print(\"--- الجدول الأصلي ---\")\n",
+        "print(df_diff)\n",
+        "\n",
+        "# 2. حساب عدد أيام التوصيل (طرح تاريخ التوصيل من تاريخ الطلب)\n",
+        "df_diff['Delivery_Days'] = (df_diff['Delivery_Date'] - df_diff['Order_Date']).dt.days\n",
+        "\n",
+        "print(\"\\n--- الجدول بعد حساب عدد أيام التوصيل ---\")\n",
+        "print(df_diff)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JhE7HoWpdQ98",
+        "outputId": "4b4abda9-4707-4bf2-facd-35d093064fee"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول الأصلي ---\n",
+            "   Order_ID Order_Date Delivery_Date\n",
+            "0         1 2026-10-01    2026-10-05\n",
+            "1         2 2026-10-05    2026-10-12\n",
+            "2         3 2026-10-10    2026-10-20\n",
+            "\n",
+            "--- الجدول بعد حساب عدد أيام التوصيل ---\n",
+            "   Order_ID Order_Date Delivery_Date  Delivery_Days\n",
+            "0         1 2026-10-01    2026-10-05              4\n",
+            "1         2 2026-10-05    2026-10-12              7\n",
+            "2         3 2026-10-10    2026-10-20             10\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "# 1. إنشاء جدول بتواريخ مختلفة\n",
+        "data_filter = {\n",
+        "    'Order_ID': [1, 2, 3, 4],\n",
+        "    'Order_Date': pd.to_datetime(['2026-09-15', '2026-10-05', '2026-10-20', '2026-11-01']),\n",
+        "    'Amount': [100, 250, 300, 450]\n",
+        "}\n",
+        "df_filter = pd.DataFrame(data_filter)\n",
+        "\n",
+        "print(\"--- الجدول الأصلي ---\")\n",
+        "print(df_filter)\n",
+        "\n",
+        "# 2. فلترة البيانات لاختيار الطلبات اللي تمت بعد تاريخ 2026-10-10 فقط\n",
+        "df_filtered = df_filter[df_filter['Order_Date'] > '2026-10-10']\n",
+        "\n",
+        "print(\"\\n--- الجدول بعد الفلترة (الطلبات بعد 10 أكتوبر) ---\")\n",
+        "print(df_filtered)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VHNlHarECHxS",
+        "outputId": "bbb91e48-9081-4d2f-ca03-d0fcff9c83fe"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول الأصلي ---\n",
+            "   Order_ID Order_Date  Amount\n",
+            "0         1 2026-09-15     100\n",
+            "1         2 2026-10-05     250\n",
+            "2         3 2026-10-20     300\n",
+            "3         4 2026-11-01     450\n",
+            "\n",
+            "--- الجدول بعد الفلترة (الطلبات بعد 10 أكتوبر) ---\n",
+            "   Order_ID Order_Date  Amount\n",
+            "2         3 2026-10-20     300\n",
+            "3         4 2026-11-01     450\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "# 1. إنشاء جدول بيحتوي على مبيعات المنتجات\n",
+        "data_group = {\n",
+        "    'Category': ['Electronics', 'Clothing', 'Electronics', 'Clothing', 'Electronics'],\n",
+        "    'Sales': [500, 150, 700, 200, 300]\n",
+        "}\n",
+        "df_group = pd.DataFrame(data_group)\n",
+        "\n",
+        "print(\"--- الجدول الأصلي ---\")\n",
+        "print(df_group)\n",
+        "\n",
+        "# 2. تجميع البيانات حسب القسم (Category) وحساب إجمالي المبيعات لكل قسم\n",
+        "df_summary = df_group.groupby('Category')['Sales'].sum().reset_index()\n",
+        "\n",
+        "print(\"\\n--- إجمالي المبيعات لكل قسم بعد التجميع ---\")\n",
+        "print(df_summary)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KKC_g48BElc0",
+        "outputId": "d9129e92-e919-4d99-ccbd-cf3f8d1d3634"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول الأصلي ---\n",
+            "      Category  Sales\n",
+            "0  Electronics    500\n",
+            "1     Clothing    150\n",
+            "2  Electronics    700\n",
+            "3     Clothing    200\n",
+            "4  Electronics    300\n",
+            "\n",
+            "--- إجمالي المبيعات لكل قسم بعد التجميع ---\n",
+            "      Category  Sales\n",
+            "0     Clothing    350\n",
+            "1  Electronics   1500\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "# 1. إنشاء جدول بيحتوي على المنتجات ومبيعاتها\n",
+        "data_sort = {\n",
+        "    'Product': ['Laptop', 'Phone', 'Tablet', 'Monitor'],\n",
+        "    'Sales': [1200, 800, 450, 950]\n",
+        "}\n",
+        "df_sort = pd.DataFrame(data_sort)\n",
+        "\n",
+        "print(\"--- الجدول قبل الترتيب ---\")\n",
+        "print(df_sort)\n",
+        "\n",
+        "# 2. ترتيب الجدول حسب المبيعات تنازلياً (من الأكبر للأصغر)\n",
+        "df_sorted = df_sort.sort_values(by='Sales', ascending=False)\n",
+        "\n",
+        "print(\"\\n--- الجدول بعد الترتيب من الأعلى للأقل مبيعات ---\")\n",
+        "print(df_sorted)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8ZA9GIrHGHqn",
+        "outputId": "ba359687-650f-4350-ae05-ae8999554b99"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول قبل الترتيب ---\n",
+            "   Product  Sales\n",
+            "0   Laptop   1200\n",
+            "1    Phone    800\n",
+            "2   Tablet    450\n",
+            "3  Monitor    950\n",
+            "\n",
+            "--- الجدول بعد الترتيب من الأعلى للأقل مبيعات ---\n",
+            "   Product  Sales\n",
+            "0   Laptop   1200\n",
+            "3  Monitor    950\n",
+            "1    Phone    800\n",
+            "2   Tablet    450\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "# 1. إنشاء جدول العملاء (Customers)\n",
+        "data_customers = {\n",
+        "    'Customer_ID': [101, 102, 103],\n",
+        "    'Customer_Name': ['أحمد', 'سارة', 'محمود']\n",
+        "}\n",
+        "df_customers = pd.DataFrame(data_customers)\n",
+        "\n",
+        "# 2. إنشاء جدول الطلبات (Orders)\n",
+        "data_orders = {\n",
+        "    'Order_ID': [1, 2, 3],\n",
+        "    'Customer_ID': [101, 103, 102],\n",
+        "    'Amount': [300, 450, 600]\n",
+        "}\n",
+        "df_orders = pd.DataFrame(data_orders)\n",
+        "\n",
+        "print(\"--- جدول العملاء ---\")\n",
+        "print(df_customers)\n",
+        "\n",
+        "print(\"\\n--- جدول الطلبات ---\")\n",
+        "print(df_orders)\n",
+        "\n",
+        "# 3. دمج الجدولين معاً بناءً على عمود الربط المشترك (Customer_ID)\n",
+        "df_merged = pd.merge(df_orders, df_customers, on='Customer_ID', how='inner')\n",
+        "\n",
+        "print(\"\\n--- الجدول بعد الدمج الشامل ---\")\n",
+        "print(df_merged)"
+      ],
+      "metadata": {
+        "id": "QV-G75PUHU8q",
+        "outputId": "de520788-5854-4a8b-8936-4b75435bcb2d",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- جدول العملاء ---\n",
+            "   Customer_ID Customer_Name\n",
+            "0          101          أحمد\n",
+            "1          102          سارة\n",
+            "2          103         محمود\n",
+            "\n",
+            "--- جدول الطلبات ---\n",
+            "   Order_ID  Customer_ID  Amount\n",
+            "0         1          101     300\n",
+            "1         2          103     450\n",
+            "2         3          102     600\n",
+            "\n",
+            "--- الجدول بعد الدمج الشامل ---\n",
+            "   Order_ID  Customer_ID  Amount Customer_Name\n",
+            "0         1          101     300          أحمد\n",
+            "1         2          103     450         محمود\n",
+            "2         3          102     600          سارة\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "import pandas as pd\n",
+        "import numpy as np\n",
+        "\n",
+        "# 1. إنشاء جدول بيحتوي على بيانات فارغة (NaN)\n",
+        "data_missing = {\n",
+        "    'Product': ['Laptop', 'Phone', 'Tablet', 'Monitor'],\n",
+        "    'Sales': [1200, np.nan, 450, 950],\n",
+        "    'Rating': [4.5, 4.0, np.nan, 4.8]\n",
+        "}\n",
+        "df_missing = pd.DataFrame(data_missing)\n",
+        "\n",
+        "print(\"--- الجدول الأصلي (فيه بيانات مفقودة NaN) ---\")\n",
+        "print(df_missing)\n",
+        "\n",
+        "# 2. معرفة مكان البيانات المفقودة (True تعني مكان الفراغ)\n",
+        "print(\"\\n--- أماكن البيانات المفقودة (IsNull) ---\")\n",
+        "print(df_missing.isnull())\n",
+        "\n",
+        "# 3. ملء القيم المفقودة في أعمدة المبيعات والتقييم بقيمة افتراضية (مثلاً صفر أو المتوسط)\n",
+        "df_filled = df_missing.fillna({'Sales': 0, 'Rating': 3.5})\n",
+        "\n",
+        "print(\"\\n--- الجدول بعد تعويض القيم المفقودة ---\")\n",
+        "print(df_filled)"
+      ],
+      "metadata": {
+        "id": "Rcp0cM07OJBM",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "eea46e8e-bc9d-4052-fdd0-71cf7b357622"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول الأصلي (فيه بيانات مفقودة NaN) ---\n",
+            "   Product   Sales  Rating\n",
+            "0   Laptop  1200.0     4.5\n",
+            "1    Phone     NaN     4.0\n",
+            "2   Tablet   450.0     NaN\n",
+            "3  Monitor   950.0     4.8\n",
+            "\n",
+            "--- أماكن البيانات المفقودة (IsNull) ---\n",
+            "   Product  Sales  Rating\n",
+            "0    False  False   False\n",
+            "1    False   True   False\n",
+            "2    False  False    True\n",
+            "3    False  False   False\n",
+            "\n",
+            "--- الجدول بعد تعويض القيم المفقودة ---\n",
+            "   Product   Sales  Rating\n",
+            "0   Laptop  1200.0     4.5\n",
+            "1    Phone     0.0     4.0\n",
+            "2   Tablet   450.0     3.5\n",
+            "3  Monitor   950.0     4.8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "import pandas as pd\n",
+        "import numpy as np\n",
+        "\n",
+        "# 1. إنشاء جدول بيحتوي على بيانات فارغة (NaN)\n",
+        "data_missing = {\n",
+        "    'Product': ['Laptop', 'Phone', 'Tablet', 'Monitor'],\n",
+        "    'Sales': [1200, np.nan, 450, 950],\n",
+        "    'Rating': [4.5, 4.0, np.nan, 4.8]\n",
+        "}\n",
+        "df_missing = pd.DataFrame(data_missing)\n",
+        "\n",
+        "print(\"--- الجدول الأصلي (فيه بيانات مفقودة NaN) ---\")\n",
+        "print(df_missing)\n",
+        "\n",
+        "# 2. معرفة مكان البيانات المفقودة (True تعني مكان الفراغ)\n",
+        "print(\"\\n--- أماكن البيانات المفقودة (IsNull) ---\")\n",
+        "print(df_missing.isnull())\n",
+        "\n",
+        "# 3. ملء القيم المفقودة في أعمدة المبيعات والتقييم بقيمة افتراضية (مثلاً صفر أو المتوسط)\n",
+        "df_filled = df_missing.fillna({'Sales': 0, 'Rating': 3.5})\n",
+        "\n",
+        "print(\"\\n--- الجدول بعد تعويض القيم المفقودة ---\")\n",
+        "print(df_filled)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sDiQOvyWPGDT",
+        "outputId": "fef5e150-60c4-4fcf-89f8-43f61faf54f3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول الأصلي (فيه بيانات مفقودة NaN) ---\n",
+            "   Product   Sales  Rating\n",
+            "0   Laptop  1200.0     4.5\n",
+            "1    Phone     NaN     4.0\n",
+            "2   Tablet   450.0     NaN\n",
+            "3  Monitor   950.0     4.8\n",
+            "\n",
+            "--- أماكن البيانات المفقودة (IsNull) ---\n",
+            "   Product  Sales  Rating\n",
+            "0    False  False   False\n",
+            "1    False   True   False\n",
+            "2    False  False    True\n",
+            "3    False  False   False\n",
+            "\n",
+            "--- الجدول بعد تعويض القيم المفقودة ---\n",
+            "   Product   Sales  Rating\n",
+            "0   Laptop  1200.0     4.5\n",
+            "1    Phone     0.0     4.0\n",
+            "2   Tablet   450.0     3.5\n",
+            "3  Monitor   950.0     4.8\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "# 1. إنشاء جدول فيه أرقام مخزنة على هيئة نصوص (Strings)\n",
+        "data_types = {\n",
+        "    'Product': ['Laptop', 'Phone', 'Tablet'],\n",
+        "    'Price': ['1200', '800', '450'],      # نصوص\n",
+        "    'Quantity': ['5', '3', '10']          # نصوص\n",
+        "}\n",
+        "df_types = pd.DataFrame(data_types)\n",
+        "\n",
+        "print(\"--- نوع البيانات قبل التحويل ---\")\n",
+        "print(df_types.dtypes)\n",
+        "\n",
+        "# 2. تحويل أعمدة الأسعار والكميات إلى أرقام (Numeric)\n",
+        "df_types['Price'] = pd.to_numeric(df_types['Price'])\n",
+        "df_types['Quantity'] = df_types['Quantity'].astype(int)\n",
+        "\n",
+        "print(\"\\n--- نوع البيانات بعد التحويل الاحترافي ---\")\n",
+        "print(df_types.dtypes)\n",
+        "\n",
+        "# 3. حساب إجمالي المبلغ لكل منتج بعد التحويل\n",
+        "df_types['Total'] = df_types['Price'] * df_types['Quantity']\n",
+        "\n",
+        "print(\"\\n--- الجدول بعد حساب إجمالي المبيعات ---\")\n",
+        "print(df_types)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "efHEve-jQr6N",
+        "outputId": "e997857c-1274-4a0d-c9d4-e6b1f764627f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- نوع البيانات قبل التحويل ---\n",
+            "Product     object\n",
+            "Price       object\n",
+            "Quantity    object\n",
+            "dtype: object\n",
+            "\n",
+            "--- نوع البيانات بعد التحويل الاحترافي ---\n",
+            "Product     object\n",
+            "Price        int64\n",
+            "Quantity     int64\n",
+            "dtype: object\n",
+            "\n",
+            "--- الجدول بعد حساب إجمالي المبيعات ---\n",
+            "  Product  Price  Quantity  Total\n",
+            "0  Laptop   1200         5   6000\n",
+            "1   Phone    800         3   2400\n",
+            "2  Tablet    450        10   4500\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "# 1. إنشاء جدول بيحتوي على المنتجات والمبيعات\n",
+        "data_plot = {\n",
+        "    'Product': ['Laptop', 'Phone', 'Tablet', 'Monitor'],\n",
+        "    'Sales': [1200, 800, 450, 950]\n",
+        "}\n",
+        "df_plot = pd.DataFrame(data_plot)\n",
+        "\n",
+        "# 2. رسم البيانات في شكل خريطة أعمدة بيانية (Bar Chart)\n",
+        "plt.bar(df_plot['Product'], df_plot['Sales'], color='purple')\n",
+        "\n",
+        "# إضافة عناوين للرسم البياني لتوضيح البيانات\n",
+        "plt.title('Product Sales Distribution')\n",
+        "plt.xlabel('Products')\n",
+        "plt.ylabel('Sales Amount')\n",
+        "\n",
+        "# عرض الرسم البياني\n",
+        "plt.show()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 190
+        },
+        "id": "V_iIdsH1R6EY",
+        "outputId": "7ddc7ff7-6cae-40a6-969f-7a904d22ea19"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<Figure size 640x480 with 1 Axes>"
+            ],
+            "image/png": "iVBORw0KGgoAAAANSUhEUgAAAkQAAAHHCAYAAABeLEexAAAAOnRFWHRTb2Z0d2FyZQBNYXRwbG90bGliIHZlcnNpb24zLjEwLjAsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvlHJYcgAAAAlwSFlzAAAPYQAAD2EBqD+naQAARwVJREFUeJzt3Xl4Tef+///XjsgsgyGJVMTUGmosSswlFUNN1ZpyNIbSqllL+bQ11lGqqhQ92hpLq3pKcVpEjE3NGhRNqSlKqKYS4UhI1u8Pv6xvt+CIZidhPR/Xta9a933vtd5rr4RX7zVsm2EYhgAAACzMKa8LAAAAyGsEIgAAYHkEIgAAYHkEIgAAYHkEIgAAYHkEIgAAYHkEIgAAYHkEIgAAYHkEIgAAYHkEIuAhZ7PZNHbs2Lwuw2EWLFggm82mkydP5nUpd9WjRw+VKlUqV7ZVqlQp9ejRw1zO/Iz27NmTK9tv0qSJmjRpkivbAnIKgQhwoMx/iDJfbm5ueuyxxzRgwACdP38+r8vLEbNnz9aCBQvueXxKSorGjBmjypUry9PTU0WKFFH16tU1ePBgnT171nGF5qCxY8faHVcPDw+VLFlSbdq00fz585Wampoj2zl8+LDGjh2bL8Nefq4NuB/OeV0AYAXjx49X6dKlde3aNX3//feaM2eOvv32W/3000/y8PDI6/L+ltmzZ6to0aJ2MxJ3cv36dTVq1Eg///yzIiMjNXDgQKWkpOjQoUNaunSpOnTooKCgIMcXnUPmzJkjLy8vpaam6rffftO6devUq1cvTZ8+XWvWrFFwcLA59uOPP1ZGRka21n/48GGNGzdOTZo0ydbsUlxcnJycHPv/u3erbf369Q7dNuAIBCIgF7Rs2VK1atWSJL344osqUqSIpk2bpm+++UZdu3a97XuuXLkiT0/P3CzT4VauXKkff/xRS5YsUbdu3ez6rl27prS0tDyq7P4899xzKlq0qLk8evRoLVmyRC+88IKef/557dixw+wrWLCgQ2sxDEPXrl2Tu7u7XF1dHbqt/8XFxSVPtw/cD06ZAXmgadOmkqQTJ05Iunl9iZeXl3799Ve1atVKhQoVUkREhKSbwejVV19VcHCwXF1dVb58eU2dOlWGYditMzU1VUOHDlWxYsVUqFAhtW3bVmfOnMmy7Ttdy5J5GuhWn332mZ588kl5eHjIz89PjRo1MmcASpUqpUOHDmnLli3m6aO7XTvy66+/SpLq16+fpc/NzU3e3t7m8oEDB9SjRw+VKVNGbm5uCgwMVK9evfTHH3/ccf1/9d1336lhw4by9PRUoUKF1Lp1ax06dMhuTEJCgnr27KkSJUrI1dVVxYsXV7t27f7WaaCIiAi9+OKL2rlzp6Kiosz2233uX3zxhWrWrKlChQrJ29tbVapU0QcffCDp5unW559/XpL01FNPmZ/v5s2bJd387J955hmtW7dOtWrVkru7u/71r3+Zfbebsbt69apeeuklFSlSRN7e3nrhhRf0559/2o250zVnf13n/6rtdtcQXbhwQb1791ZAQIDc3NxUrVo1LVy40G7MyZMnZbPZNHXqVM2dO1dly5aVq6urateurd27d9/28wZyCjNEQB7IDAZFihQx227cuKHw8HA1aNBAU6dOlYeHhwzDUNu2bbVp0yb17t1b1atX17p16zR8+HD99ttvev/99833v/jii/rss8/UrVs31atXTxs3blTr1q3/Vp3jxo3T2LFjVa9ePY0fP14uLi7auXOnNm7cqObNm2v69OkaOHCgvLy89MYbb0iSAgIC7ri+kJAQSdKiRYv05ptv3jaAZYqKitLx48fVs2dPBQYG6tChQ5o7d64OHTqkHTt23PW9ixcvVmRkpMLDwzV58mRdvXpVc+bMUYMGDfTjjz+awaRjx446dOiQBg4cqFKlSunChQuKiorS6dOn/9YF0N27d9fcuXO1fv16Pf3003fcv65du6pZs2aaPHmyJOnIkSOKiYnR4MGD1ahRIw0aNEgzZszQ//3f/6lixYqSZP5XunlqrGvXrnrppZfUp08flS9f/q51DRgwQL6+vho7dqzi4uI0Z84cnTp1Sps3b77r53mre6ntr/773/+qSZMmOnbsmAYMGKDSpUtr+fLl6tGjhy5duqTBgwfbjV+6dKkuX76sl156STabTVOmTNGzzz6r48ePO3ymDRZmAHCY+fPnG5KMDRs2GL///rsRHx9vfPHFF0aRIkUMd3d348yZM4ZhGEZkZKQhyRg5cqTd+1euXGlIMt5++2279ueee86w2WzGsWPHDMMwjNjYWEOS8corr9iN69atmyHJGDNmjNkWGRlphISEZKl1zJgxxl//Sjh69Kjh5ORkdOjQwUhPT7cbm5GRYf758ccfNxo3bnxPn8fV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ve1eAADg4ZWvA1GzZs108OBBxcbGmq9atWopIiLC/HPBggUVHR1tvicuLk6nT59WaGioJCk0NFQHDx7UhQsXzDFRUVHy9vZWpUqVcn2fAABA/pOvryEqVKiQKleubNfm6empIkWKmO29e/fWsGHDVLhwYXl7e2vgwIEKDQ1V3bp1JUnNmzdXpUqV1L17d02ZMkUJCQl688031b9/f7m6uub6PgEAgPwnXweie/H+++/LyclJHTt2VGpqqsLDwzV79myzv0CBAlqzZo369eun0NBQeXp6KjIyUuPHj8/DqgEAQH7ywAWizZs32y27ublp1qxZmjVr1h3fExISom+//dbBlQEAgAdVvr6GCAAAIDcQiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOURiAAAgOXl60A0adIk1a5dW4UKFZK/v7/at2+vuLg4uzHXrl1T//79VaRIEXl5ealjx446f/683ZjTp0+rdevW8vDwkL+/v4YPH64bN27k5q4AAIB8LF8Hoi1btqh///7asWOHoqKidP36dTVv3lxXrlwxxwwdOlSrV6/W8uXLtWXLFp09e1bPPvus2Z+enq7WrVsrLS1NP/zwgxYuXKgFCxZo9OjRebFLAAAgH3LO6wLuZu3atXbLCxYskL+/v/bu3atGjRopKSlJn376qZYuXaqmTZtKkubPn6+KFStqx44dqlu3rtavX6/Dhw9rw4YNCggIUPXq1TVhwgS9/vrrGjt2rFxcXPJi1wAAQD6Sr2eIbpWUlCRJKly4sCRp7969un79usLCwswxFSpUUMmSJbV9+3ZJ0vbt21WlShUFBASYY8LDw5WcnKxDhw7ddjupqalKTk62ewEAgIfXAxOI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\n"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "import pandas as pd\n",
+        "import matplotlib.pyplot as plt\n",
+        "\n",
+        "# 1. إنشاء جدول بيحتوي على الأشهر والمبيعات لتتبع التطور الزمني\n",
+        "data_line = {\n",
+        "    'Month': ['Jan', 'Feb', 'Mar', 'Apr', 'May'],\n",
+        "    'Sales': [400, 650, 500, 900, 1100]\n",
+        "}\n",
+        "df_line = pd.DataFrame(data_line)\n",
+        "\n",
+        "# 2. رسم البيانات في شكل خط بياني (Line Chart)\n",
+        "plt.plot(df_line['Month'], df_line['Sales'], marker='o', color='green', linewidth=2)\n",
+        "\n",
+        "# إضافة عناوين للرسم البياني لتوضيح البيانات\n",
+        "plt.title('Monthly Sales Trend Over Time')\n",
+        "plt.xlabel('Months')\n",
+        "plt.ylabel('Sales Amount')\n",
+        "\n",
+        "# إضافة شبكة خلفية لتسهيل قراءة الأرقام\n",
+        "plt.grid(True)\n",
+        "\n",
+        "# عرض الرسم البياني\n",
+        "plt.show()"
+      ],
+      "metadata": {
+        "id": "JBaZE19LTEJG",
+        "outputId": "f72efe86-35ae-480d-e42b-54073cd12e97",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 190
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<Figure size 640x480 with 1 Axes>"
+            ],
+            "image/png": "iVBORw0KGgoAAAANSUhEUgAAAkQAAAHHCAYAAABeLEexAAAAOnRFWHRTb2Z0d2FyZQBNYXRwbG90bGliIHZlcnNpb24zLjEwLjAsIGh0dHBzOi8vbWF0cGxvdGxpYi5vcmcvlHJYcgAAAAlwSFlzAAAPYQAAD2EBqD+naQAAeYZJREFUeJzt3XdYVvX/x/HnDbIVt+CepeLIVUpppiJIuDUXbssyc5alZebINCtntswcuTUyt+KeqVlu8pvmVtyKgjLP7w9+3kUu0BsON7we18V1eT7nnM95HT7c8uZMi2EYBiIiIiKZmIPZAURERETMpoJIREREMj0VRCIiIpLpqSASERGRTE8FkYiIiGR6KohEREQk01NBJCIiIpmeCiIRERHJ9FQQiYiISKangkjEjlgsFt56661HLjd9+nQsFgsnTpxI/VCPyWKxMHToULNjpCsbN27EYrGwceNGs6OYxh5+diVjUkEkwj//CVssFrZu3XrPfMMwKFy4MBaLhYYNG6Zqlu3btzN06FCuX7+eqttJqaVLl1K7dm3y5cuHu7s7JUqUoFWrVqxatcrsaI/00ksvWcf3YV/2VqAdOnSI9u3bU7BgQVxcXChQoADBwcEcOnTI7GhJZNTvv2QsWcwOIJKeuLq6MmfOHGrWrJmkfdOmTZw5cwYXF5dUz7B9+3aGDRtG586dyZEjR6pvLzk+//xzBgwYQO3atRk0aBDu7u4cPXqUtWvXMm/ePBo0aGB2xIf64IMPePXVV63Tu3fvZuLEibz//vuULVvW2l6xYkUz4j2WkJAQ2rZtS65cuejWrRvFixfnxIkTTJ06lUWLFjFv3jyaNWtmdkwgZd//cuXK0aZNmzT5rIn8mwoikX95+eWXWbhwIRMnTiRLln8+HnPmzKFq1apcvnzZxHTmiIuLY8SIEdSvX581a9bcM//ixYsmpEqZ+vXrJ5l2dXVl4sSJ1K9fn5deeumB60VGRuLh4ZHK6VLu2LFjdOjQgRIlSrB582by5s1rndenTx9q1apFhw4d2L9/PyVKlEizXA/6fqX0++/o6JhaEUUeSKfMRP6lbdu2XLlyhdDQUGtbTEwMixYtol27dvddJzIykrfffpvChQvj4uJC6dKl+fzzzzEMI8lyd6//Wbx4MeXLl8fFxYVy5colOeU0dOhQBgwYAEDx4sWtpxL+ez3Fw/q4n06dOpEnTx5iY2Pvmefv70/p0qUfuO7ly5eJiIjghRdeuO/8fPnyWf8dExPDkCFDqFq1KtmzZ8fDw4NatWqxYcOGh+a76+zZs3Tt2hUvLy/rvv3www/3LDdp0iTKlSuHu7s7OXPmpFq1asyZMydZ23iQoUOHYrFYOHz4MO3atSNnzpxJjhTOmjWLqlWr4ubmRq5cuWjTpg2nT59O0sdLL71E+fLlOXz4MHXq1MHd3Z2CBQsyZsyYe7Z35swZmjZtioeHB/ny5aNfv35ER0cnK+tnn31GVFQU3333XZJiCCBPnjx8++23REZGWre7aNEiLBYLmzZtuqevb7/9FovFwsGDB61tf/75Jy1btiRXrly4urpSrVo1lixZkmS9u6eZN23axJtvvkm+fPkoVKhQsvI/zP2uISpWrBgNGzZk48aNVKtWDTc3NypUqGC91iokJIQKFSrg6upK1apV+eOPP+7pNzn7JJmbCiKRfylWrBi+vr7MnTvX2rZy5Upu3LhBmzZt7lneMAwaN27MuHHjaNCgAWPHjqV06dIMGDCA/v3737P81q1befPNN2nTpg1jxozhzp07tGjRgitXrgDQvHlz2rZtC8C4ceP48ccf+fHHH5P80ntUH/fToUMHrly5wurVq5O0h4eHs379etq3b//AdfPly4ebmxtLly7l6tWrD1wOICIigu+//56XXnqJTz/9lKFDh3Lp0iUCAgLYu3fvQ9e9cOECNWrUYO3atbz11ltMmDCBUqVK0a1bN8aPH29dbsqUKfTu3RsfHx/Gjx/PsGHDqFSpEjt37nxo/8n1yiuvEBUVxSeffMJrr70GwMiRI+nYsSNPPfUUY8eOpW/fvqxbt44XX3zxnmu9rl27RoMGDXjmmWf44osvKFOmDO+99x4rV660LnP79m3q1avH6tWreeutt/jggw/YsmUL7777brIyLl26lGLFilGrVq37zn/xxRcpVqwYy5cvByAoKIisWbOyYMGCe5adP38+5cqVo3z58kDidUk1atQgLCyMgQMH8sUXX+Dh4UHTpk35+eef71n/zTff5PDhwwwZMoSBAwcmK//jOHr0KO3ataNRo0aMGjWKa9eu0ahRI2bPnk2/fv1o3749w4YN49ixY7Rq1YqEhATruindJ8mkDBExpk2bZgDG7t27jS+//NLIli2bERUVZRiGYbzyyitGnTp1DMMwjKJFixpBQUHW9RYvXmwAxscff5ykv5YtWxoWi8U4evSotQ0wnJ2dk7Tt27fPAIxJkyZZ2z777DMDMI4fP35PzuT2cXd/7vYRHx9vFCpUyGjdunWS/saOHWtYLBbj77//fuj3Z8iQIQZgeHh4GIGBgcbIkSONPXv23LNcXFycER0dnaTt2rVrhpeXl9G1a9d79uWjjz6yTnfr1s3Inz+/cfny5STLtWnTxsiePbt1PJo0aWKUK1fuoXkfZeHChQZgbNiwwdr20UcfGYDRtm3bJMueOHHCcHR0NEaOHJmk/cCBA0aWLFmStNeuXdsAjJkzZ1rboqOjDW9vb6NFixbWtvHjxxuAsWDBAmtbZGSkUapUqXty/df169cNwGjSpMlD97Fx48YGYERERBiGYRht27Y18uXLZ8TFxVmXOX/+vOHg4GAMHz7c2lavXj2jQoUKxp07d6xtCQkJxvPPP2889dRT1ra7P2M1a9ZM0mdy3O/7/99+//3zX7RoUQMwtm/fbm1bvXq1ARhubm7GyZMnre3ffvvtPX0nd58kc9MRIpH/aNWqFbdv32bZsmXcvHmTZcuWPfB02YoVK3B0dKR3795J2t9++20Mw0hyVADAz8+PkiVLWqcrVqyIp6cnf//9d7LzPU4fDg4OBAcHs2TJEm7evGltnz17Ns8//zzFixd/6DaHDRvGnDlzqFy5MqtXr+aDDz6gatWqVKlShbCwMOtyjo6OODs7A5CQkMDVq1eJi4ujWrVq/P777w/s3zAMfvrpJxo1aoRhGFy+fNn6FRAQwI0bN6zr58iRgzNnzrB79+6Hf6Me0xtvvJFkOiQkhISEBFq1apUkl7e3N0899dQ9pwOzZs2a5Iibs7Mzzz33XJLxWbFiBfnz56dly5bWNnd3d7p37/7IfHfHL1u2bA9d7u78iIgIAFq3bs3FixeT3NK/aNEiEhISaN26NQBXr15l/fr1tGrVips3b1r39cqVKwQEBPDXX39x9uzZJNt57bXX0uSaHx8fH3x9fa3T1atXB6Bu3boUKVLknva73+/H2SfJnFQQifxH3rx58fPzY86cOYSEhBAfH5/kF9e/nTx5kgIFCtzzy+nunTMnT55M0v7v/7jvypkzJ9euXUt2vsfto2PHjty+fdt6iuDIkSPs2bOHDh06JGu7bdu2ZcuWLVy7do01a9bQrl07/vjjDxo1asSdO3esy82YMYOKFSvi6upK7ty5yZs3L8uXL+fGjRsP7PvSpUtcv37dek3Mv7+6dOkC/HPx9nvvvUfWrFl57rnneOqpp+jZsyfbtm1L1j4kx3+Lw7/++gvDMHjqqafuyRYWFnbPReWFChXCYrEkafvv+Jw8eZJSpUrds9zDruW66+7P2r8L2/v5b+HUoEEDsmfPzvz5863LzJ8/n0qVKvH0008DiaelDMPgww8/vGdfP/roI+Dei+gfVUzbyn9/7rNnzw5A4cKF79t+9/v9OPskmZPuMhO5j3bt2vHaa68RHh5OYGCgzW5/f9Bf0sZ/LsBOjT58fHyoWrUqs2bNomPHjsyaNQtnZ2datWqV7G0DeHp6Ur9+ferXr4+TkxMzZsxg586d1K5dm1mzZtG5c2eaNm3KgAEDyJcvH46OjowaNYpjx449sM+713u0b9+eTp063XeZu7fEly1bliNHjrBs2TJWrVrFTz/9xFdffcWQIUMYNmxYivblftzc3O7JZrFYWLly5X2/91mzZk0ybYsxfpjs2bOTP39+9u/f/9Dl9u/fT8GCBfH09ATAxcXFes3MV199xYULF9i2bRuffPKJdZ274/DOO+8QEBBw335LlSqVZPq/36/U8qDv66O+34+zT5I5qSASuY9mzZrx+uuv8+uvvyb5i/q/ihYtytq1a7l582aSo0R//vmndX5K/feogS117NiR/v37c/78eebMmUNQUBA5c+Z87P6qVavGjBkzOH/+PJB4CqZEiRKEhIQk2Y+7f4k/SN68ecmWLRvx8fH4+fk9crseHh60bt2a1q1bExMTQ/PmzRk5ciSDBg3C1dX1sffnfkqWLIlhGBQvXtx6JOVJFS1alIMHD2IYRpLv05EjR5K1fsOGDZkyZQpbt26955lZAFu2bOHEiRO8/vrrSdpbt27NjBkzWLduHWFhYRiGYT1dBlhv0XdyckrWONiDjLhPkjp0ykzkPrJmzcrXX3/N0KFDadSo0QOXe/nll4mPj+fLL79M0j5u3DgsFguBgYEp3vbd57ikxpOq27Zti8VioU+fPvz9998PvbvsrqioKHbs2HHfeXevkbp7qufuX+v/Phqyc+fOB65/l6OjIy1atOCnn35Kcvv3XZcuXbL++7930zk7O+Pj44NhGPd9rMCTat68OY6OjgwbNuyeozyGYTz07r4Hefnllzl37hyLFi2ytt29jT45BgwYgJubG6+//vo927969SpvvPEG7u7u1kc43OXn50euXLmYP38+8+fP57nnnktyyitfvny89NJLfPvtt9Yi99/+PQ72IiPuk6QOHSESeYAHnbr5t0aNGlGnTh0++OADTpw4wTPPPMOaNWv45Zdf6Nu3b5KLn5OratWqQOLTfdu0aYOTkxONGjWyyQMC8+bNS4MGDVi4cCE5cuQgKCjoketERUXx/PPPU6NGDRo0aEDhwoW5fv06ixcvZsuWLTRt2pTKlSsDiUcuQkJCaNasGUFBQRw/fpxvvvkGHx8fbt269dDtjB49mg0bNlC9enVee+01fHx8uHr1Kr///jtr16613vLv7++Pt7c3L7zwAl5eXoSFhfHll18SFBT0yAuNH0fJkiX5+OOPGTRoECdOnKBp06Zky5aN48eP8/PPP9O9e3feeeedFPX52muv8eWXX9KxY0f27NlD/vz5+fHHH3F3d0/W+k899RQzZswgODiYChUq3POk6suXLzN37tx7fv6cnJxo3rw58+bNIzIyks8///yevidPnkzNmjWpUKECr732GiVKlODChQvs2LGDM2fOsG/fvhTta3qQEfdJbE8FkcgTcHBwYMmSJQwZMoT58+czbdo0ihUrxmeffcbbb7/9WH0+++yzjBgxgm+++YZVq1aRkJDA8ePHbfbE5I4dO7Js2TJatWqVrNcj5MiRgylTprB8+XKmTZtGeHg4jo6OlC5dms8++yzJHXadO3cmPDycb7/9ltWrV+Pj48OsWbNYuHDhI19Y6uXlxa5duxg+fDghISF89dVX5M6dm3LlyvHpp59al3v99deZPXs2Y8eO5datWxQqVIjevXszePDgx/6ePMrAgQN5+umnGTdunPU6pcKFC+Pv70/jxo1T3J+7uzvr1q2jV69eTJo0CXd3d4KDgwkMDEz2a1BeeeUVypQpw6hRo6xFUO7cualTpw7vv/++9blC/9W6dWu+//57LBbLfa8f8/Hx4bfffmPYsGFMnz6dK1eukC9fPipXrsyQIUNSvK/pQUbcJ7E9i2GrK/1ExC788ssvNG3alM2bNz/wwX4iIpmNCiKRTKZhw4aEhYVx9OjRVL2AW0TEnuiUmUgmMW/ePPbv38/y5cuZMGGCiiERkX/RESKRTMJisZA1a1Zat27NN998Q5Ys+ntIROQu/Y8o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+ho5ciS1a9fGx8eHgQMHsn37du7cuYObmxtZs2YlS5YseHt74+3tjZubm3W9zp0707ZtW0qVKsUnn3zCrVu32LVrFwCnTp2icuXKVKtWjWLFiuHn50ejRo3S5psjIo9N7zITEbuSN29egoKCmD59OoZhEBQUlOQIzLFjx4iNjeWFF16wtjk5OfHcc88RFhaWpK+KFSta/50/f34ALl68+Mjrkf69noeHB56enly8eBGAHj160KJFC37//Xf8/f1p2rQpzz///OPvsIikCR0hEhG707VrV6ZPn86MGTOsp7keh5OTk/XfFosFgISEhBStd3fdu+sFBgZy8uRJ+vXrx7lz56hXrx7vvPPOY2cUkbShgkhE7E6DBg2IiYkhNjaWgICAJPNKliyJs7Mz27Zts7bFxsaye/dufHx8kr0NZ2dn4uPjHytf3rx56dSpE7NmzWL8+PF89913j9WPiKQdnTITEbvj6OhoPf3l6OiYZJ6Hhwc9evRgwIAB5MqViyJFijBmzBiioqLo1q1bsrdRrFgxjh8/zt69eylUqBDZsmXDxcXlkesNGTKEqlWrUq5cOaKjo1m2bBlly5ZN2Q6KSJpTQSQidsnT0/OB80aPHk1CQgIdOnTg5s2bVKtWjdWrV5MzZ85k99+iRQtCQkKoU6cO169fZ9q0acl68KOzszODBg3ixIkTuLm5UatWLebNm5fs7YqIOSyGYRhmhxARERExk64hEhERkUxPBZGIiIhkeiqIREREJNNTQSQiIiKZngoiERERyfRUEImIiEimp4JIREREMj0VRCIiIpLpqSASERGRTE8FkYiIiGR6KohEREQk01NBJCIiIpne/wHFVTuBXM9rgQAAAABJRU5ErkJggg==\n"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "# استيراد مكتبة Scikit-Learn وأدوات تدريب النماذج\n",
+        "from sklearn.linear_model import LinearRegression\n",
+        "import numpy as np\n",
+        "\n",
+        "# 1. تجهيز بيانات تدريب بسيطة (مثلاً: عدد ساعات الدراسة مقابل الدرجات المتوقعة)\n",
+        "# ساعات الدراسة (المؤثر)\n",
+        "X = np.array([[1], [2], [3], [4], [5]])\n",
+        "# الدرجات الناتجة (النتيجة المتوقعة)\n",
+        "y = np.array([50, 60, 70, 80, 90])\n",
+        "\n",
+        "# 2. إنشاء نموذج الانحدار الخطي (Linear Regression Model)\n",
+        "model = LinearRegression()\n",
+        "\n",
+        "# 3. تدريب النموذج باستخدام البيانات (هنا الكمبيوتر بيبدأ يتعلم العلاقة بنفسه!)\n",
+        "model.fit(X, y)\n",
+        "\n",
+        "# 4. اختبار النموذج: التنبؤ بدرجة طالب ذاكر لمدة 6 ساعات مثلاً\n",
+        "hours_studied = np.array([[6]])\n",
+        "predicted_score = model.predict(hours_studied)\n",
+        "\n",
+        "print(f\"--- أول نموذج ذكاء اصطناعي ---\")\n",
+        "print(f\"لو الطالب ذاكر {hours_studied[0][0]} ساعات، الدرجة المتوقعة بالذكاء الاصطناعي هي: {predicted_score[0]} درجة!\")"
+      ],
+      "metadata": {
+        "id": "WOoU_XyH5LHG",
+        "outputId": "b2917dad-9676-4c8e-cd3f-0a3a0673d776",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- أول نموذج ذكاء اصطناعي ---\n",
+            "لو الطالب ذاكر 6 ساعات، الدرجة المتوقعة بالذكاء الاصطناعي هي: 100.0 درجة!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# استيراد الأداة المسؤولة عن تقسيم البيانات\n",
+        "from sklearn.model_selection import train_test_split\n",
+        "import numpy as np\n",
+        "\n",
+        "# 1. إنشاء بيانات تجريبية (ساعات الدراسة والدرجات)\n",
+        "X = np.array([[1], [2], [3], [4], [5], [6], [7], [8]])\n",
+        "y = np.array([50, 55, 65, 70, 75, 85, 90, 95])\n",
+        "\n",
+        "# 2. تقسيم البيانات: 80% للتدريب (Training) و 20% للاختبار (Testing)\n",
+        "X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n",
+        "\n",
+        "print(\"--- بيانات التدريب (اللي الكمبيوتر هيتعلم منها): ---\")\n",
+        "print(\"ساعات التدريب:\\n\", X_train)\n",
+        "\n",
+        "print(\"\\n--- بيانات الاختبار (اللي هنمتحن بيها الذكاء الاصطناعي في الآخر): ---\")\n",
+        "print(\"ساعات الاختبار:\\n\", X_test)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "f27NVpFQHnJh",
+        "outputId": "eb9cf56d-0f50-4abd-900c-1c5e55543c30"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- بيانات التدريب (اللي الكمبيوتر هيتعلم منها): ---\n",
+            "ساعات التدريب:\n",
+            " [[1]\n",
+            " [8]\n",
+            " [3]\n",
+            " [5]\n",
+            " [4]\n",
+            " [7]]\n",
+            "\n",
+            "--- بيانات الاختبار (اللي هنمتحن بيها الذكاء الاصطناعي في الآخر): ---\n",
+            "ساعات الاختبار:\n",
+            " [[2]\n",
+            " [6]]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "from sklearn.linear_model import LinearRegression\n",
+        "from sklearn.model_selection import train_test_split\n",
+        "import numpy as np\n",
+        "\n",
+        "# 1. الداتا بتاعتنا (ساعات الدراسة والدرجات)\n",
+        "X = np.array([[1], [2], [3], [4], [5], [6], [7], [8]])\n",
+        "y = np.array([50, 55, 65, 70, 75, 85, 90, 95])\n",
+        "\n",
+        "# 2. تقسيم البيانات (80% تدريب و 20% اختبار)\n",
+        "X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n",
+        "\n",
+        "# 3. بناء نموذج الذكاء الاصطناعي\n",
+        "model = LinearRegression()\n",
+        "\n",
+        "# 4. تدريب النموذج باستخدام بيانات التدريب فقط!\n",
+        "model.fit(X_train, y_train)\n",
+        "\n",
+        "# 5. اختبار النموذج على بيانات الاختبار (اللي مشافهاش قبل كدة)\n",
+        "predictions = model.predict(X_test)\n",
+        "\n",
+        "print(\"--- درجات الطلاب الحقيقية في الاختبار: ---\")\n",
+        "print(y_test)\n",
+        "\n",
+        "print(\"\\n--- التوقعات اللي طلعها الذكاء الاصطناعي لوحده: ---\")\n",
+        "print(predictions)\n",
+        "from sklearn.metrics import mean_absolute_error\n",
+        "\n",
+        "# حساب متوسط خطأ التوقعات مقارنة بالدرجات الحقيقية\n",
+        "error = mean_absolute_error(y_test, predictions)\n",
+        "\n",
+        "print(f\"--- تقييم الذكاء الاصطناعي ---\")\n",
+        "print(f\"متوسط نسبة الخطأ في توقعات النموذج: {error:.2f} درجة فقط!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CMOVZ4qyQlq-",
+        "outputId": "1b2226b7-120d-4a45-a4c4-701499474998"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- درجات الطلاب الحقيقية في الاختبار: ---\n",
+            "[55 85]\n",
+            "\n",
+            "--- التوقعات اللي طلعها الذكاء الاصطناعي لوحده: ---\n",
+            "[57.1 82.7]\n",
+            "--- تقييم الذكاء الاصطناعي ---\n",
+            "متوسط نسبة الخطأ في توقعات النموذج: 2.20 درجة فقط!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "import joblib\n",
+        "\n",
+        "# 1. حفظ الموديل في ملف على الجهاز\n",
+        "joblib.dump(model, 'my_study_model.pkl')\n",
+        "\n",
+        "print(\"تم حفظ النموذج بنجاح يا نورهان! 💾✨\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yPupka_yKwkd",
+        "outputId": "e6004aba-e601-418d-9bd3-33dc304cbcbd"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "تم حفظ النموذج بنجاح يا نورهان! 💾✨\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import joblib\n",
+        "\n",
+        "# 1. استرجاع وتحميل الموديل المحفوظ من الملف\n",
+        "loaded_model = joblib.load('my_study_model.pkl')\n",
+        "\n",
+        "# 2. نجرب نخليه يتوقع حاجة جديدة بالنموذج المسترجع (مثلا لو طالب درس 6 ساعات)\n",
+        "new_prediction = loaded_model.predict([[6]])\n",
+        "\n",
+        "print(f\"--- تم استرجاع النموذج بنجاح يا نورهان! ---\")\n",
+        "print(f\"توقع الذكاء الاصطناعي لطالب دراسة 6 ساعات باستخدام الموديل المحفوظ: {new_prediction[0]:.2f} درجة\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zTxA1xvrOlCi",
+        "outputId": "1ce29597-1220-4796-8ef8-7887e9e6b4ea"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- تم استرجاع النموذج بنجاح يا نورهان! ---\n",
+            "توقع الذكاء الاصطناعي لطالب دراسة 6 ساعات باستخدام الموديل المحفوظ: 82.70 درجة\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "print(\"مكتبة باندا جاهزة للشغل يا نورهان! 🐼✨\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9sYlhMK1tuRE",
+        "outputId": "6d08715d-20b8-4c7e-f976-27de0310730a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "مكتبة باندا جاهزة للشغل يا نورهان! 🐼✨\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "\n",
+        "# هنعمل جدول بسيط كأننا قرناه من ملف CSV عشان نتمرن عليه\n",
+        "data = {\n",
+        "    'Study_Hours': [2, 4, 6, 8, 10],\n",
+        "    'Exam_Score': [50, 65, 80, 90, 98]\n",
+        "}\n",
+        "\n",
+        "# تحويل البيانات لجدول مرتب (DataFrame) باستخدام Pandas\n",
+        "df = pd.DataFrame(data)\n",
+        "\n",
+        "# عرض الجدول\n",
+        "print(df)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "axVLmov3uH34",
+        "outputId": "765f1050-50f2-415d-b397-ecac7976d608"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "   Study_Hours  Exam_Score\n",
+            "0            2          50\n",
+            "1            4          65\n",
+            "2            6          80\n",
+            "3            8          90\n",
+            "4           10          98\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "import pandas as pd\n",
+        "from sklearn.linear_model import LinearRegression\n",
+        "\n",
+        "# 1. إنشاء جدول البيانات (DataFrame)\n",
+        "data = {\n",
+        "    'Study_Hours': [2, 4, 6, 8, 10],\n",
+        "    'Exam_Score': [50, 65, 80, 90, 98]\n",
+        "}\n",
+        "df = pd.DataFrame(data)\n",
+        "\n",
+        "# 2. فصل البيانات لمُدخلات (X) ومُخرجات (y)\n",
+        "X = df[['Study_Hours']]\n",
+        "y = df['Exam_Score']\n",
+        "\n",
+        "# 3. إنشاء نموذج الانحدار الخطي وتدريبه على الداتا\n",
+        "model = LinearRegression()\n",
+        "model.fit(X, y)\n",
+        "\n",
+        "print(\"--- مبروك يا نورهان! الموديل اتدرب بنجاح على داتا Pandas الحقيقية! 🎉 ---\")\n",
+        "\n",
+        "# 4. عمل توقع لطالب جديد درس 7 ساعات باستخدام جدول مصغر بنفس اسم العمود\n",
+        "new_student = pd.DataFrame({'Study_Hours': [7]})\n",
+        "predicted_score = model.predict(new_student)\n",
+        "\n",
+        "# 5. طباعة النتيجة النهائية منسقة\n",
+        "print(f\"توقع الموديل لطالب درس 7 ساعات: {predicted_score[0]:.2f} درجة\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sqEu75lgwNWl",
+        "outputId": "36e9b35e-e8b3-4f9b-de50-582839b044e8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- مبروك يا نورهان! الموديل اتدرب بنجاح على داتا Pandas الحقيقية! 🎉 ---\n",
+            "توقع الموديل لطالب درس 7 ساعات: 82.65 درجة\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "import pandas as pd\n",
+        "\n",
+        "# رابط لملف بيانات جاهز (مجموعة بيانات عن درجات الطلاب أو أسعار الالعاب مثلاً)\n",
+        "url = \"https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv\"\n",
+        "\n",
+        "# قراءة الملف باستخدام أمر pd.read_csv السحري\n",
+        "df = pd.read_csv(url)\n",
+        "\n",
+        "# عرض أول 5 صفوف من الملف الحقيقي\n",
+        "print(df.head())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sr_z4ivPU8VT",
+        "outputId": "1b33d8b8-9e85-4bbc-b7de-f83363fbc1be"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "   sepal_length  sepal_width  petal_length  petal_width species\n",
+            "0           5.1          3.5           1.4          0.2  setosa\n",
+            "1           4.9          3.0           1.4          0.2  setosa\n",
+            "2           4.7          3.2           1.3          0.2  setosa\n",
+            "3           4.6          3.1           1.5          0.2  setosa\n",
+            "4           5.0          3.6           1.4          0.2  setosa\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "import pandas as pd\n",
+        "import numpy as np\n",
+        "\n",
+        "# 1. هنعمل جدول فيه بيانات عن درجات الطلاب، بس متعمدين نسيب خانة فاضية (NaN) عشان نتمرن على تنظيفها\n",
+        "data = {\n",
+        "    'Study_Hours': [2, 4, np.nan, 8, 10],  # فيه قيمة ناقصة هنا في النص\n",
+        "    'Exam_Score': [50, 65, 80, np.nan, 98]  # وفيه قيمة ناقصة تانية هنا كمان\n",
+        "}\n",
+        "\n",
+        "df = pd.DataFrame(data)\n",
+        "\n",
+        "print(\"--- الجدول الأصلي وفيه القيم الناقصة (مشاكل الداتا): ---\")\n",
+        "print(df)\n",
+        "\n",
+        "# 2. فحص الداتا ومعرفة أماكن القيم الناقصة باستخدام isnull() و sum()\n",
+        "print(\"\\n--- عدد القيم الناقصة في كل عمود: ---\")\n",
+        "print(df.isnull().sum())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0G-zWaVT6BVh",
+        "outputId": "30e7c1cb-0a56-4351-f5da-b9755dacd969"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول الأصلي وفيه القيم الناقصة (مشاكل الداتا): ---\n",
+            "   Study_Hours  Exam_Score\n",
+            "0          2.0        50.0\n",
+            "1          4.0        65.0\n",
+            "2          NaN        80.0\n",
+            "3          8.0         NaN\n",
+            "4         10.0        98.0\n",
+            "\n",
+            "--- عدد القيم الناقصة في كل عمود: ---\n",
+            "Study_Hours    1\n",
+            "Exam_Score     1\n",
+            "dtype: int64\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# استخدام أمر dropna لحذف أي صف يحتوي على قيم ناقصة (NaN)\n",
+        "df_clean = df.dropna()\n",
+        "\n",
+        "print(\"--- الجدول بعد تنظيفه وحذف الصفوف التالفة: ---\")\n",
+        "print(df_clean)\n",
+        "\n",
+        "# التأكد أن القيم الناقصة أصبحت صفر\n",
+        "print(\"\\n--- عدد القيم الناقصة بعد التنظيف: ---\")\n",
+        "print(df_clean.isnull().sum())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uHLyj9HI759i",
+        "outputId": "db97034f-b419-4dca-8a44-bc476a00a37a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول بعد تنظيفه وحذف الصفوف التالفة: ---\n",
+            "   Study_Hours  Exam_Score\n",
+            "0          2.0        50.0\n",
+            "1          4.0        65.0\n",
+            "4         10.0        98.0\n",
+            "\n",
+            "--- عدد القيم الناقصة بعد التنظيف: ---\n",
+            "Study_Hours    0\n",
+            "Exam_Score     0\n",
+            "dtype: int64\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# حساب المتوسط لعمود ساعات الدراسة وعمود الدرجات\n",
+        "mean_study = df['Study_Hours'].mean()\n",
+        "mean_score = df['Exam_Score'].mean()\n",
+        "\n",
+        "# تعويض القيم الناقصة (NaN) بمتوسط كل عمود باستخدام fillna\n",
+        "df_filled = df.fillna({\n",
+        "    'Study_Hours': mean_study,\n",
+        "    'Exam_Score': mean_score\n",
+        "})\n",
+        "\n",
+        "print(\"--- الجدول بعد تعويض القيم الناقصة بالمتوسط (من غير ما نحذف صفوف): ---\")\n",
+        "print(df_filled)"
+      ],
+      "metadata": {
+        "id": "VVCTJoRi9ekm",
+        "outputId": "6271f2cc-cebd-49da-a8ba-7231684c4e48",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- الجدول بعد تعويض القيم الناقصة بالمتوسط (من غير ما نحذف صفوف): ---\n",
+            "   Study_Hours  Exam_Score\n",
+            "0          2.0       50.00\n",
+            "1          4.0       65.00\n",
+            "2          6.0       80.00\n",
+            "3          8.0       73.25\n",
+            "4         10.0       98.00\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "from sklearn.linear_model import LinearRegression\n",
+        "from sklearn.metrics import mean_squared_error, r2_score\n",
+        "\n",
+        "# 1. داتا بسيطة للتدريب (ساعات الدراسة والدرجات الفعلية)\n",
+        "X = [[1], [2], [3], [4], [5]]  # ساعات الدراسة\n",
+        "y = [10, 20, 30, 40, 50]      # الدرجات\n",
+        "\n",
+        "# 2. بناء وتدريب الموديل\n",
+        "model = LinearRegression()\n",
+        "model.fit(X, y)\n",
+        "\n",
+        "# 3. توقع الدرجات بناءً على الموديل\n",
+        "y_pred = model.predict(X)\n",
+        "\n",
+        "# 4. تقييم الموديل باستخدام R2 Score (نسبة دقة وتوافق الموديل مع الداتا)\n",
+        "accuracy = r2_score(y, y_pred)\n",
+        "\n",
+        "print(\"--- تقييم أداء الموديل الاحترافي ---\")\n",
+        "print(f\"نسبة دقة الموديل (R2 Score): {accuracy * 100}%\")"
+      ],
+      "metadata": {
+        "id": "sphxOamtkvQ8",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "6bb89399-0ae4-435f-edac-614f6feba3ed"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "--- تقييم أداء الموديل الاحترافي ---\n",
+            "نسبة دقة الموديل (R2 Score): 100.0%\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
